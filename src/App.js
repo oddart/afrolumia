@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+
+import Intro from './components/views/intro';
+import Footer from './components/Footer';
+
 import './components/App.css';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Hello World</h1>
+        <Intro />
+        <Footer />
       </div>
     );
   }
