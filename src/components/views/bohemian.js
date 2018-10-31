@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 
 const note = {
+  color: "#fff"
+}
+
+const black = {
   color: "#000"
-}
-
-const honey = {
-  color: "#eb9605"
-}
-
-const underBlack = {
-  textDecoration: "underline",
-  textDecorationColor: "#000"
 }
 
 export default class Bohemian extends Component {
@@ -20,10 +15,10 @@ export default class Bohemian extends Component {
         <div>
           <div id="card">
             <h3 style={note}>/bəʊˈhiːmɪən/</h3>
-            <p style={honey}>A <span style={underBlack}>bohemian</span> is a socially unconventional person, especially one who is involved in the arts.</p>
+            <p style={black}>A bohemian is a socially unconventional person, especially one who is involved in the arts.</p>
           </div>
           <div>
-            <img src= {'https://res.cloudinary.com/poetrique/image/upload/v1540850458/afrolumia/afrolumia.png'} alt="AFROLUMIA" title="for bohemians with culture" />
+            <img src= {'https://res.cloudinary.com/poetrique/image/upload/c_scale,w_400/v1540972599/afrolumia/afrolumia_LOGO.png'} alt="AFROLUMIA" title="for bohemians with culture" />
           </div>
         </div>
       </div>
