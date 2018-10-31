@@ -8,6 +8,11 @@ const black = {
   color: "#000"
 }
 
+const logo = {
+  width: "100%",
+  height: "auto" 
+} 
+
 export default class Bohemian extends Component {
   render() {
     return(
@@ -18,7 +23,7 @@ export default class Bohemian extends Component {
             <p style={black}>A bohemian is a socially unconventional person, especially one who is involved in the arts.</p>
           </div>
           <div>
-            <img src= {'https://res.cloudinary.com/poetrique/image/upload/c_scale,w_400/v1540972599/afrolumia/afrolumia_LOGO.png'} alt="AFROLUMIA" title="for bohemians with culture" />
+            <img style={logo} src= {'https://res.cloudinary.com/poetrique/image/upload/c_scale,w_400/v1540972599/afrolumia/afrolumia_LOGO.png'} alt="AFROLUMIA" title="for bohemians with culture" />
           </div>
         </div>
       </div>
