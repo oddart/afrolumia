@@ -13,6 +13,11 @@ body {
   background-color: #eb9605;
 }
 
+#logo {
+  width: 400px;
+  height: auto;
+} 
+
 @media all and (max-width: 1200px) {
   #card {
     margin-left: 6em;
