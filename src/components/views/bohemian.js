@@ -9,7 +9,7 @@ const black = {
 }
 
 const logo = {
-  width: "100%",
+  width: "400px",
   height: "auto" 
 } 
 
