@@ -15,6 +15,6 @@
   ],
   "theme_color": "#eb9605",
   "background_color": "#eb9605",
-  "start_url": "https://afrolumia.club",
+  "start_url": "/",
   "display": "standalone"
 }
