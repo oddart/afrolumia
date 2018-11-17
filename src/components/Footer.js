@@ -19,7 +19,7 @@ export default class Footer extends Component {
   render() {
     return(
       <div style={footerStyle}>
-        <h5>a <span style={honeyBold_underWhite}>poetrique</span> initiative</h5>
+      <h5>a <a style={honeyBold_underWhite} href="https://poetrique.xyz" alt="poetrique" title="Poetrique | Tech & Art">poetrique</a> initiative</h5>
         <h6>Usheninte &copy; 2018</h6>
       </div>
     );
