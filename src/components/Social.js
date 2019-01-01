@@ -14,7 +14,7 @@ export default class Social extends Component {
         <div style={honey}>
           <h4>Join the Movement</h4>
           <a style={honey}
-          href="https://instagram.com" 
+          href="https://instagram.com/afrolumia" 
           alt="Instagram" target="_blank" 
           rel="noopener noreferrer">
             <i class="fab fa-instagram fa-3x social"></i>
